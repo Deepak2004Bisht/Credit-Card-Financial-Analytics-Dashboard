@@ -28,153 +28,104 @@ The dashboard was developed using the following tools and technologies:
 
 <h2>📊 Data Source</h2>
 
-Dataset Type: HR Employee Dataset
+Source: SQL database connected to Power BI.
 
-Domain: Human Resources & Workforce Analytics
+Dataset Type: Credit card transaction and customer financial data.
 
-Scope: Employee demographics, salaries, performance, promotions, and attrition
+The dataset contains information related to credit card transactions, customer profiles, revenue, interest earnings, annual fees, payment channels, spending categories, and financial characteristics.
 
 Key Data Fields:
 
-•  Employee ID  <br>
-•  Department <br>
-•  Gender <br>
-•  Job Role <br>
-•  Marital Status <br>
-•  Salary <br>
-•  Tenure <br>
-•  Performance Rating <br>
-•  Promotion Status <br>
-•  Attrition Status <br>
-•  Age Group <br>
+<b>1. Transaction-Related Data</b>
+
+• Card category <br>
+• Revenue <br>
+• Interest earned <br>
+• Annual fees <br>
+• Transaction amount <br>
+• Transaction count <br>
+• Quarter <br>
+• Week start date <br>
+• Expenditure type <br>
+• Payment or usage channel <br>
+
+<b>2. Customer-Related Data</b>
+
+• Customer income <br>
+• Customer job <br>
+• Age group <br>
+• Gender <br>
+• Education level <br>
+• Marital status <br>
+• Dependent count <br>
+• Salary group <br>
+• Customer acquisition cost <br>
+• Customer satisfaction score <br>
+• Credit score category <br>
+• Card category <br>
 
 <h2>✨ Features & Dashboard Highlights
 🔍 Business Problem </h2>
 
-Organizations often struggle to understand:
+Organizations often struggle to understand:Financial institutions generate large volumes of credit card transaction and customer data. However, raw data alone makes it difficult to understand revenue performance, customer spending habits, transaction activity, and customer financial characteristics.
 
-•  Why employees leave the company? <br>
-•  Which departments experience the highest attrition? <br>
-•  How employee demographics affect workforce performance? <br>
-•  Which job roles generate the highest payroll expenses? <br>
-•  How satisfied employees are across departments? <br>
+Important business questions include:
 
-Without proper analytics, workforce planning becomes difficult and costly.
+• How much revenue is generated from credit card transactions? <br>
+• Which card category contributes the most revenue? <br>
+• Which expenditure types generate the highest revenue? <br>
+• How does revenue change across quarters? <br>
+• Which customer segments contribute the most income? <br>
+• Which payment or usage channels are most frequently used? <br>
+• How are customers distributed by gender, age, education, and profession? <br>
+• How does customer satisfaction vary across different customer groups? <br>
+
 
 <h2>🎯 Goal of the Dashboard </h2>
 
-To create an interactive HR analytics solution that:
+The primary goal of this project is to develop an interactive financial analytics solution that:
 
-•  Monitors employee attrition and retention <br>
-•  Evaluates department-level performance <br>
-•  AAnalyzes workforce demographics <br>
-•  Tracks salary and promotion metrics <br>
-•  Supports strategic HR decision-making <br>
+• Monitors overall credit card revenue and transaction performance. <br>
+• Analyzes interest earned and annual fee contributions. <br>
+• Compares financial performance across card categories. <br>
+• Identifies revenue patterns across expenditure types and customer segments. <br>
+• Tracks quarterly revenue and transaction-count trends. <br>
+• Analyzes customer demographics and income distribution. <br>
+• Supports interactive filtering and detailed financial reporting. <br>
+• Presents complex financial data in a simple, user-friendly format. <br>
 
-<h2>📈 Walkthrough of Key Dashboard Sections</h2>
-1️⃣ Workforce Overview
+<h2>📈 Key Dashboard Metrics</h2>
 
-Key KPIs
+The following metrics are visible in the report screenshots:
 
-• Total Employees: 1,480
+• <b>Total Revenue:</b> 55M
+• <b>Total Interest Earned:</b> 7.84M
+• <b>Transaction Amount:</b> 45M
+• <b>Transaction Count:</b> 656K
+• <b>Total Customer Income:</b> 576M
+• <b>Customer Satisfaction Score:</b> 3.19
 
-• Attrition Rate: 16.1%
-
-• Average Salary: 6.5K
-
-• Average Tenure: 7 Years
-
-• Promotion Rate: 40%
-
-Average Performance Score: 3.2
-
-📌 Insight: Provides a quick overview of workforce health and organizational performance.
-
-2️⃣ Attrition Analysis
-
-Employee Retention Breakdown
-
-• Stayed: 1,242 Employees
-
-• Left: 238 Employees
-
-📌 Insight: Approximately 16% of employees have left the organization, highlighting retention challenges.
-
-3️⃣ Department Performance Analysis
-
-Departments Included
-
-• Research & Development
-
-• Sales
-
-• Human Resources
-
-Metrics:
-
-• Employee Count
-
-• Attrition Rate
-
-📌 Insight: Department-level analysis helps identify areas requiring retention and engagement initiatives.
-
-4️⃣ Salary Analysis by Job Role
-
-Analyzes monthly income across different job roles, including:
-
-Research Director
-
-Manager
-
-Sales Executive
-
-Human Resources
-
-Laboratory Technician
+These metrics provide a high-level view of financial performance and customer-related reporting.
 
 
-📌 Insight: Helps identify salary distribution patterns and compensation gaps.
+<h2>💡 Business Value</h2>
 
-5️⃣ Gender Diversity Analysis
+The Credit Card Financial Analytics Dashboard can support financial reporting and business analysis in several ways:
 
-Workforce Distribution:
-
-• Male Employees: 889 (60.1%)
-
-• Female Employees: 591 (39.9%)
-
-📌 Insight: Provides visibility into gender diversity and workforce inclusivity.
-
-6️⃣ Age Group Distribution
-
-Employee segmentation by age:
-
-• 18–25
-• 26–35
-• 36–45
-• 46–55
-
-📌 Insight: The majority of employees belong to the 26–35 age group, representing the core workforce.
-
-7️⃣ Job Satisfaction Analysis
-
-Heatmap visualization displaying satisfaction ratings across departments.
-
-📌 Insight: Helps HR teams identify departments with lower satisfaction levels and improve employee engagement strategies.
-
-
-📊 Business Impact & Insights
-
-• 📉 Attrition Reduction: Identifies departments and employee groups with higher turnover.
-
-• 👨‍💼 Workforce Planning: Supports data-driven hiring and retention strategies.
-
-• 💰 Compensation Analysis: Helps evaluate salary distribution across job roles.
-
-• ⭐ Employee Experience: Tracks job satisfaction and performance metrics.
-
-• 📈 HR Decision Making: Enables proactive workforce management and policy improvements.
+• 💰 Revenue Monitoring: Helps track overall revenue and interest-related financial performance. <br> <br>
+• 💳 Card Category Analysis: Enables comparison of financial performance across different card categories. <br> <br>
+• 📊 Spending Pattern Analysis: Helps identify revenue contribution from various expenditure types and usage channels. <br> <br>
+• 📅 Quarterly Performance Tracking: Supports analysis of revenue and transaction-count trends over time. <br> <br>
+• 👥 Customer Segmentation: Provides insights into customer demographics, income, profession, and education. <br> <br>
+• 🎯 Customer Strategy: Helps analyze customer groups and financial characteristics for better decision-making. <br> <br>
+• 📈 Data-Driven Reporting: Converts SQL-based financial data into interactive and easy-to-understand Power BI reports. <br> <br>
 
 <h2>🖼 Dashboard Screenshots</h2>
-<img src="https://github.com/Deepak2004Bisht/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Image.png" />
+
+<b>Credit Card Transaction Report</b>
+<img src="https://github.com/Deepak2004Bisht/Credit-Card-Financial-Analytics-Dashboard/blob/main/Credt%20card%20Transaction%20Report.png" />
+<br><br><br>
+
+<b>Credit Card Customer Report</b>
+<img src="https://github.com/Deepak2004Bisht/Credit-Card-Financial-Analytics-Dashboard/blob/main/customer%20report.png" />
 
