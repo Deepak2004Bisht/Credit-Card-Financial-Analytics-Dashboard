@@ -122,10 +122,10 @@ The Credit Card Financial Analytics Dashboard can support financial reporting an
 
 <h2>🖼 Dashboard Screenshots</h2>
 
-<b>Credit Card Transaction Report</b>
+<h3>Credit Card Transaction Report</h3><br>
 <img src="https://github.com/Deepak2004Bisht/Credit-Card-Financial-Analytics-Dashboard/blob/main/Credt%20card%20Transaction%20Report.png" />
-<br><br><br>
+<br><br>
 
-<b>Credit Card Customer Report</b>
+<h3>Credit Card Customer Report</h3><br>
 <img src="https://github.com/Deepak2004Bisht/Credit-Card-Financial-Analytics-Dashboard/blob/main/customer%20report.png" />
 
